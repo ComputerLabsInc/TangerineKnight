@@ -76,7 +76,7 @@ public class Main {
         String wav;
 
         for(int i = 0; i < 16; i++) {
-            wav = "src/trio-measures/t" + Integer.toString(genTrio[i]) + ".wav";
+            wav = "audio/trio-measures/t" + Integer.toString(genTrio[i]) + ".wav";
             strArr[i] = wav;
         }
 
